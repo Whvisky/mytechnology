@@ -1,0 +1,10 @@
+mybatis:
+  type-aliases-package: com.example.multiservicetransaction.pojo
+  mapper-locations: classpath*:mapper/*.xml
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/testdb?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: tempUser1
+    password: 123456
